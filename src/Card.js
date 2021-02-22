@@ -1,9 +1,10 @@
 const Card = (props) => {
   return ( 
-    <div className= {props.cardcontainer} >
+    <div className= "cardcontainer">
       <div className={props.className}>
      <div className="small-div">
-       <img src={props.img} alt='Image'/>
+                    <img src={props.img} alt=''/>
+
      </div>
         <div className="big-div">
           <div className="title">
